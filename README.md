@@ -90,7 +90,7 @@ Our startup team was looking for a way to take customer requests and put them in
 
 ### Functionality 
 
-The information is organized in a Trello Board in lists after filling out a google form or google spreadsheet. This can be used to keep track of orders, organize spreadsheet data into lists based on keywords, sort on the fly based on search results, and pretty much anything that has to do with assigning tasks or organizing spreadsheet responses and Google form responses. The problems that this solves are innumerable. This hack does not rely on a database to take orders, nor does it require complicated scripts to get orders in a well-structured place.
+The information is organized in a Trello Board in lists after filling out a google form or google spreadsheet. This is achieved by conditionally and logically assigning the cards to the correct list so that the data is very organized. This can be used to keep track of orders, organize spreadsheet data into lists based on keywords, sort on the fly based on search results, and pretty much anything that has to do with assigning tasks or organizing spreadsheet responses and Google form responses. The problems that this solves are innumerable. This hack does not rely on a database to take orders, nor does it require complicated scripts to get orders in a well-structured place.
 
 ### Building process
 
