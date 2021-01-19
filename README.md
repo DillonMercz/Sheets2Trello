@@ -80,7 +80,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://github.com/DillonMercz/Sheets2Trello/blob/main/trello%20splur.png) product screenshot 
+[![Product Name Screen Shot][product-screenshot]](https://github.com/DillonMercz/Sheets2Trello/blob/main/trello%20splur.png) 
 
 For many organizations, the online platforms require users to submit requests that are handled by administrators later. One prominent example of this occurs during online shopping or on freelance websites. Customers contact freelancers and expect them to solve their problems. Developers usually spend a lot of time on accessing databases, collecting requests from various sources such as google forms and google sheets, and strategizing how to organize them into their ‘to-do list’ management platforms, such as Trello.  
  
