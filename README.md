@@ -34,16 +34,16 @@
   <h3 align="center">Google Forms/Google Sheets To Trello</h3>
 
   <p align="center">
-    Google forms/sheets and customer data all in one, organized place
+    Google forms/sheets and customer data all in one, organized place in Trello
     <br />
-    <a href="https://github.com/GaelKBertrand/googlesheet2trello"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/DillonMercz/Sheets2Trello"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/GaelKBertrand/googlesheet2trello">View Demo</a>
+    <a href="https://github.com/DillonMercz/Sheets2Trello">View Demo</a>
     ·
-    <a href="https://github.com/GaelKBertrand/googlesheet2trello/issues">Report Bug</a>
+    <a href="https://github.com/DillonMercz/Sheets2Trello/issues">Report Bug</a>
     ·
-    <a href="https://github.com/GaelKBertrand/googlesheet2trello/issues">Request Feature</a>
+    <a href="https://github.com/DillonMercz/Sheets2Trello/issues">Request Feature</a>
   </p>
 </p>
 
@@ -82,17 +82,25 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com) product screenshot 
 
-For many businesses and organizations, their online platforms require users to make requests which can be worked on later by the adminstrators. One prominent example of this situation takes place during online shopping or on freelance websites. customers make requests that need to be addressed by freelancers or developers. It tends to take a huge amount of time for develpers to under go  a process of accesding their databases, collect those requests and them strategically to their 'to-do lists' managment process. 
+For many organizations, the online platforms require users to submit requests that are handled by administrators later. One prominent example of this occurs during online shopping or on freelance websites. Customers contact freelancers and expect them to solve their problems. Developers usually spend a lot of time on accessing databases, collecting requests from various sources such as google forms and google sheets, and strategizing how to organize them into their ‘to-do list’ management platforms, such as Trello.  
+ 
+This repository allows you to schedule tasks and other necessary information collected through google forms and google sheet directly into Trello. 
 
-This repository aims at reducing this time taken and optimize the process of scheduling tasks and other necessary information collected from google forms and google sheet directly into Trello. 
+Our startup team was looking for a way to take customer requests and put them into Trello, a company that makes tasks planning and organization easy. Therefore, all customer orders and tasks can be listed in one place, and we can stay well organized within the company. This is an excellent tool that provides solutions to a wide range of problems relating to business, industry, and personal aspects of life. 
 
 ### Functionality 
 
-After filling out a form, the responses are saved to a Google sheet and then organized in a Trello Board. This can be used to keep track of orders, organizing spreadsheet data into lists based on keywords, and virtually anything that deals with giving tasks to or organizing Google form responses and spreadsheet data. The problems that this solves are innumerable. This is a hack that doesn't require a database to collect orders and does not need complicated scripts to get the orders to a well-organized place.
+The information is organized in a Trello Board in lists after filling out a google form or google spreadsheet. This can be used to keep track of orders, organize spreadsheet data into lists based on keywords, sort on the fly based on search results, and pretty much anything that has to do with assigning tasks or organizing spreadsheet responses and Google form responses. The problems that this solves are innumerable. This hack does not rely on a database to take orders, nor does it require complicated scripts to get orders in a well-structured place.
 
 ### Building process
 
-The script that makes the API calls was built in Python. It uses IFTTT for the new row trigger in Google spreadsheets and sends an email stating the number of the new row in the subject of the email. The script extracts the row number from the email and using the Google Sheets API, it will start off by checking the responses of certain cells to determine which list to put the data in, and which cells to grab the data from. After the data is fetched, it is split into variables which can then be sent to Trello. To actually build the cards accurately every time, there is a lot of work involved. So the program starts off by sending a request to Trello via the API to create a new card. The JSON response is then split into a list, then into variables to get the Card ID and the List ID. with this info, checklists can then be created on the card to define what exactly the customer wants. We make another POST request and create a checklist, we then split the JSON response to get the checklist ID, and then we make more POST requests to populate the checklist with the customer's contact information, as well as the information about the order. The information that populates the checklist comes from the variables collected earlier from the Google spreadsheet. After testing it out on google forms, we built an HTML form and connected the google backend so that the responses from the custom HTML form, could be saved into the spreadsheet along with the google forms equivalent responses.
+1. The script that calls APIs was written in Python. It uses IFTTT to trigger a new row in Google spreadsheets and sends an email with the number of the new row in the subject line. The script extracts the row number from the email and using the Google Sheets API, it will check the responses to certain cells to determine which list and which cells to pull data from.
+
+2. After the data is fetched, it is split into variables which can then be sent to Trello. It takes a lot of time and work to actually create the cards correctly every time. The program starts off by requesting a new card from Trello via the API. The JSON response is then split into a list, then into variables to get the Card ID and the List ID. With this information, checklists can be created on the card to determine the exact needs of the customer. Therefore, we make another POST request and create a checklist and then split the JSON response to get the checklist ID.
+
+3. Then we make more POST requests to populate the checklist with the customer's contact information, as well as the information about the order. The information that populates the checklist comes from the variables collected earlier using the Google spreadsheet.
+
+4. After testing it out on google forms, we built an HTML form and connected the google back-end, so that the responses from the custom HTML form could be saved into the spreadsheet along with the google forms equivalent responses.
 
 ### Built With
 
@@ -101,6 +109,7 @@ This section should list any major frameworks that you built your project using.
 * [Python] (add website)
 * [Google API] (add website)
 * [HTML] (add website)
+* add more pluggins and tools 
 
 
 <!-- GETTING STARTED -->
@@ -141,13 +150,13 @@ This is the list of things you need to use the software and how to install them.
 _For more examples, please refer to the [Documentation](https://example.com)_
 
 
-
-
 <!-- Accomplishments -->
 
 ## Accomplishments that we're proud of
 
-We are proud of the system that we have made. It is reliable, can solve many problems, and can be implemented to work with more systems other than google forms. We all know now how to build APIs, and we learned not only how to use postman, but how to use it effectively. This was a big win for the startup team and this will help us to expand our business and stay organized at the same time.
+We were able to create a working system that can help teams of online vendors and freelancers to get organized, save time, and allocate it to other useful activities. The sheer amount that it took a person to create Trello lists and organize them depending on their google form data is nonexistent now because it is an automated process.
+
+We are proud of the system that we have made which can be implemented to work with more systems other than google forms. We learned a lot on how to build APIs by using Postman effectively. This was a big win for the startup team and this will help us to expand our business and stay organized at the same time.
 
 
 <!-- LICENSE -->
