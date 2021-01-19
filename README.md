@@ -158,21 +158,24 @@ To get a local copy up and running follow these simple example steps.
 <!-- USAGE EXAMPLES -->
 ## Usage and applications
 
-1. Medical Field
-2. Engineering Field
-3. Data Science
-4. Education Systems
-5. Companies (Large, Medium, and Small)
-6. Freelancers
-7. Government
-8. Online Event Booking
-9. Custom Order Systems
-10. When Combined with a payment, this could be the frontend of a consulting Business.
-11. Accounting
-12. Construction
-13. Organizing Information about organizations, events, and more.
-14. Storing information without having to build or set up a database.
-15. Software Development
+1. Software Development
+2. Freelance
+3. Medical Field
+4. Engineering Field
+5. Data Science
+6. Education Systems
+7. Companies (Large, Medium, and Small)
+8. Freelancers
+9. Government
+10. Online Event Booking
+11. Custom Order Systems
+12. When Combined with a payment, this could be the frontend of a consulting Business.
+13. Accounting
+14. Construction
+15. Organizing Information about organizations, events, and more.
+16. Storing information without having to build or set up a database.
+17. Nearly anything Digital.
+
 
 
 _For more examples, please refer to the [Documentation](https://example.com)_
