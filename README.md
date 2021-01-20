@@ -90,7 +90,8 @@ Our startup team was looking for a way to take customer requests and put them in
 
 ### Functionality 
 
-The information is organized in a Trello Board in lists after filling out a google form or google spreadsheet. This is achieved by conditional logical assigning the cards to the correct list so that the data is very organized. This can be used to keep track of orders, organize spreadsheet data into lists based on keywords, sort on the fly based on search results, and pretty much anything that has to do with assigning tasks or organizing spreadsheet responses and Google form responses. The problems that this solves are innumerable. This hack does not rely on a database to take orders, nor does it require complicated scripts to get orders in a well-structured place.
+The information is organized in a Trello Board in lists after filling out a google form or google spreadsheet. This is achieved by conditional logical assigning the cards to the correct list so that the data is very organized. This can be used to keep track of orders, organize spreadsheet data into lists based on keywords, sort on the fly based on search results, and pretty much anything that has to do with assigning tasks or organizing spreadsheet responses and Google form responses. The problems that this solves are innumerable. This hack does not rely on a database to take orders, nor does it require complicated scripts to get orders in a well-structured place. 
+*Optional* In Our Postman Workspace, we have examples for the stripe API to handle Payments and Payouts. Perfect for Ecommerce solutions, as well as Freelance developer solutions.
 
 ### Building process
 
@@ -102,6 +103,7 @@ The information is organized in a Trello Board in lists after filling out a goog
 
 4. After testing it out on google forms, we built an HTML form and connected the google back-end, so that the responses from the custom HTML form could be saved into the spreadsheet along with the google forms equivalent responses.
 
+
 ### Built With
 
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
@@ -111,15 +113,15 @@ This section should list any major frameworks that you built your project using.
 * [Google Sheets API- Getting Started] https://www.twilio.com/blog/2017/02/an-easy-way-to-read-and-write-to-a-google-spreadsheet-in-python.html
 * [Google Mail API] https://developers.google.com/gmail/api
 * [Trello API] https://developer.atlassian.com/cloud/trello/rest/
+* [Stripe API] https://stripe.com/docs/api
 * [Spyder IDE- From Anaconda] https://www.anaconda.com/products/individual
+* [Postman] https://www.postman.com/
 * add more pluggins and tools 
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
-
-This is how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+To Get Started Please Refer to the Instructions Below:
 
 ### Prerequisites
 * Python (3 works the best)
@@ -153,6 +155,7 @@ To get a local copy up and running follow these simple example steps.
 14. Pip install -r requirements.txt
 15. Run and troubleshoot any problems/ Modify to your content
 16. If Problems Persist, Open A New Issue, or reach out to us.
+
 
 
 <!-- USAGE EXAMPLES -->
