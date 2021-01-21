@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Postman Galaxy Hackathon Demo 2021</title>
+  <link rel="canonical" href="https://en.letswrite.tw/custom-google-form/">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+</head>
+  <!-- customized style -->
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      font-size: 16px;
+    }
+    html, body, .container, .row {
+      margin: auto;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+	  background: url(https://i.imgur.com/75UqeWQ.jpg) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      height: 100%;
+}
+    }
+    .container {
+      max-width: 100%;
+      margin-left: auto;
+      margin-right:auto;
+    }
+    button {
+      font-size: 16px;
+    }
+
+    .half {
+      position: fixed;
+      margin: 0;
+      width: 50% !important;
+      height: 100%;
+  
+    }
+    .form {
+      margin-left: auto;
+      margin-right: auto;
+      overflow: auto;
+      display: block;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    h1, form {
+      width: 100%;
+    }
+    h1 {
+      padding-top: 16px;
+      text-align: center;
+      text-color: white;
+    }
+    form {
+      margin-right: auto;
+      margin-left: auto;
+      max-width: 400px;
+    }
+    .input-group {
+      margin-bottom: 30px;
+      padding-top:10px;
+      margin-top:30px;
+      
+    }
+    .radio-group label {
+      display: inline-block;
+      margin-bottom:30px;
+    }
+    textarea {
+      min-height: 100px;
+    }
+
+    @media screen and (max-width: 650px) {
+      .half {
+        position: static;
+        width: 100% !important;
+        height: auto;
+      }
+      .bg {
+		background-width: 100%;
+        background-height: 100%;
+		background-attachment: scroll;
+	}
+}
+
+ 		 /* Center and scale the image nicely */
+ 		background-position: center;
+ 		background-repeat: no-repeat;
+  		background-size: cover;
+}
+      }
+      form {
+        padding-right: 12px;
+        padding-left: 12px;
+      }
+    }
+    
+
+  </style>
+
+  <!-- Google Tag Manager (noscript)-->
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PGQ9WQT" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript>
+  <div class="container">
+    <main class="row">
+      
+      <!-- form -->
+      <section style="align:center; margin-left: auto; margin-right: auto;" class="single column">
+        <h1><span style="color:white; font-size:40px; background-color:black; padding-top:15px;padding-bottom:15px;padding-left:20px;padding-right:20px;align:center;">Postman Galaxy API Hackathon 2021 Demo</span></h1>
+        <form>
+          <!-- name -->
+          <div class="input-group">
+            <label for="demo_name"><span style="color:white;background-color:black;padding-top:5px;padding-bottom:5px;padding-left:10px;padding-right:10px;">Name</span></label>
+            <input class="u-full-width" type="text" placeholder="Please Enter Your Name" id="demo_name">
+          </div>
+          
+          <!-- email -->
+          <div class="input-group">
+            <label for="demo_name"><span style="color:white;background-color:black;padding-top:5px;padding-bottom:5px;padding-left:10px;padding-right:10px;">Email</span></label>
+            <input class="u-full-width" type="text" placeholder="Please Enter Your Email" id="demo_email">
+          </div>
+          <!-- win -->
+          <div class="input-group">
+            <label> <span style="color:white;background-color:black;padding-top:5px;padding-bottom:5px;padding-left:10px;padding-right:10px;">Do You Think We Will Win The Hackathon?</span></label>
+            <div class="radio-group row">
+            	<!-- Yes -->
+                <div class="eight columns">
+                 <input type="radio" id="Of Course" name="demo_win" value="Of Course" checked>
+                 <label for="Of Course"><span style="color:white;background-color:black;padding-top:5px;padding-bottom:5px;padding-left:10px;padding-right:10px;">Of Course</span></label>
+          </div>
+                <!-- No -->
+                <div class="eight columns">
+                 <input type="radio" id="Never" name="demo_win" value="Never">
+                 <label for="Never"><span style="color:white;background-color:black;padding-top:5px;padding-bottom:5px;padding-left:10px;padding-right:10px;">Never<span></label>
+          </div>
+          <!-- favorite color -->
+          <div class="input-group"style="padding-top:10px;">
+           <label for="demo_name"><span style="color:white;background-color:black;padding-top:5px;padding-bottom:5px;padding-left:10px;padding-right:10px;">What Is Your favorite Color?<span></label>
+           <input class="u-full-width" type="text" placeholder="Please Enter Your Favorite Color" id="demo_color">
+          </div>
+          <!-- Favorite Animal -->
+          <div class="input-group">
+           <label for="demo_name"><span style="color:white;background-color:black;padding-top:5px;padding-bottom:5px;padding-left:10px;padding-right:10px;">What is Your Favorite Animal?<span></label>
+           <input class="u-full-width" type="text" placeholder="Please Enter Your Favorite Animal" id="demo_animal">
+          </div>
+          <button style="background-color: #d23f0e" type="button" id="submit" class="button-primary u-full-width">Submit</button>
+
+        </form>
+      </section>
+    </main>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script>
+    $(function() {
+      $('#submit').on('click', function() {
+        // name
+        var name = $('#demo_name').val() || 'no set';
+        
+        // email
+        var email = $('#demo_email').val() || 'no set';
+        
+        // color
+        var color = $('#demo_color').val() || 'no set';
+        
+        //animal
+        var animal = $('#demo_animal').val() || 'no set';
+        
+        //win
+        var win = function() {
+          var v;
+          $('[name="demo_win"]').each(function() {
+            if($(this).prop('checked') === true) v= $(this).val();
+          });
+          return v;
+        };
+        // post
+        var data = {
+          'entry.202433477': name,
+          'entry.1625667443': email,
+          'entry.1479166417': win,
+          'entry.350480722': color,
+          'entry.1852539771': animal
+        };
+        $.ajax({
+          type: 'POST',
+          url: 'Google API POST URL Goes HERE',
+          data: data,
+          contentType: 'application/json',
+          dataType: 'jsonp',
+          complete: function(response) {
+            location.href = "https://trello.com/b/OeaJYJW0"
+          }
+        });
+        
+      });
+    });
+  </script>
+  
+</body>
+</html>
