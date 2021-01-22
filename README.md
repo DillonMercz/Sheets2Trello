@@ -160,7 +160,7 @@ To Get Started Please Refer to the Instructions Below:
 
 ### Postman Workspace
 
-[![Postman Workspace Screenshot][postman-screenshot]](https://github.com/DillonMercz/Sheets2Trello/blob/main/postman.png) 
+<img src="https://github.com/DillonMercz/Sheets2Trello/blob/main/postman.png" alt="Postman workspace screenshot" ">
 
 Below are short instructions on how to use our Postman Workspace.
 
@@ -176,7 +176,9 @@ These are the steps to set up Trello so that it can be used with our scripts. Yo
 
 4. After creating the card, the checklist needs to be made, and the Card ID you receive in the JSON request can now be used to create a checklist on the card you just created. For a full list of parameters to add a card refer to https://developer.atlassian.com/cloud/trello/rest/api-group-checklists/#api-checklists-post
 
-5. After the checklist is made, copy the checklist ID from the JSON response, and then send a response to add fields to the checklist. The format you should follow is this: ‘Field Name Field Value’. So if my name is John, you would use the “name” parameter and write-Name: John Doe or if you wanted to do an email you write: “name” param- Email: Johndoe@gmail.com. For a full list of params, refer to https://developer.atlassian.com/cloud/trello/rest/api-group-checklists/#api-checklists-id-checkitems-post
+5. After the checklist is made, copy the checklist ID from the JSON response, and then send a response to add fields to the checklist. 
+  The format you should follow is ‘Field Name Field Value’. For example if your name is John, you use the “name” parameter and write ‘Name: John Doe’. 
+  If you want to use an email address, you use the “name” parameter and write: ‘Email: Johndoe@x.com’. For a full list of params, refer to https://developer.atlassian.com/cloud/trello/rest/api-group-checklists/#api-checklists-id-checkitems-post
 
 In the Postman workspace we also added Stripe API requests to show that a business can use these to collect payments from customers using the stripe API, this system can then be used to move money around or automatically send payments, arrange customers on Trello lists, or even arrange sales. The Stripe APi gives this workspace high business value.
 
