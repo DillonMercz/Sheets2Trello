@@ -182,6 +182,8 @@ These are the steps to set up Trello so that it can be used with our scripts. Yo
 
 In the Postman workspace we also added Stripe API requests to show that a business can use these to collect payments from customers using the stripe API, this system can then be used to move money around or automatically send payments, arrange customers on Trello lists, or even arrange sales. The Stripe APi gives this workspace high business value.
 
+**Tip IF you need JSON information, just export a card as JSON in Firefox, and the JSON data is well organized and the variables are easy to find.**
+
 
 <!-- USAGE EXAMPLES -->
 ## Usage and applications
