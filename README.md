@@ -160,8 +160,7 @@ To Get Started Please Refer to the Instructions Below:
 
 ### Postman Workspace
 
-[![Postman Workspace Screenshot]](https://github.com/DillonMercz/Sheets2Trello/blob/main/postman.png) 
-<img src="https://github.com/DillonMercz/Sheets2Trello/blob/main/postman.png" alt="Italian Trulli">
+<img src="https://github.com/DillonMercz/Sheets2Trello/blob/main/postman.png" alt="Postman Workspace Screenshot">
 
 Below are short instructions on how to use our Postman Workspace.
 
