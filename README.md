@@ -222,13 +222,13 @@ Project Link: [https://github.com/DillonMercz/Sheets2Trello](https://github.com/
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/DillonMercz/Sheets2Trello.svg?style=for-the-badge
 [contributors-url]: https://github.com/DillonMercz/Sheets2Trello/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/DillonMercz/Sheets2Trello.svg?style=for-the-badge
 [forks-url]: https://github.com/DillonMercz/Sheets2Trello/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/DillonMercz/Sheets2Trello.svg?style=for-the-badge
 [stars-url]: https://github.com/DillonMercz/Sheets2Trello/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/DillonMercz/Sheets2Trello.svg?style=for-the-badge
 [issues-url]: https://github.com/DillonMercz/Sheets2Trello/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/DillonMercz/Sheets2Trello.svg?style=for-the-badge
 [license-url]: https://github.com/DillonMercz/Sheets2Trello/blob/master/LICENSE.txt
 [website-shield]: https://img.shields.io/website?down_color=lightgrey&down_message=offline&up_color=blue&up_message=online&url=https%3A%2F%2Fshields.io
 [website-url]: https://splurket.com
