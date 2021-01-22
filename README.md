@@ -205,6 +205,8 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Dylan Clayton - [@Dillon_marks](https://twitter.com/dillon_marks) - dylanclayton3@gmail.com
 
+Gael K. Bertrand - [Discord BeeKayKoozie: BeeKay Koozie#6769](https://discord.com)
+
 Project Link: [https://github.com/DillonMercz/Sheets2Trello](https://github.com/DillonMercz/Sheets2Trello)
 
 
@@ -218,7 +220,7 @@ Project Link: [https://github.com/DillonMercz/Sheets2Trello](https://github.com/
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/DillonMercz/Sheets2Trello.svg?style=for-the-badge
 [contributors-url]: https://github.com/DillonMercz/Sheets2Trello/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
 [forks-url]: https://github.com/DillonMercz/Sheets2Trello/network/members
