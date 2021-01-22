@@ -160,7 +160,7 @@ To Get Started Please Refer to the Instructions Below:
 
 ### Postman Workspace
 
-<img src="https://github.com/DillonMercz/Sheets2Trello/blob/main/postman.png" alt="Postman Workspace Screenshot">
+[![Postman Workspace Screenshot][postman-screenshot]](https://github.com/DillonMercz/Sheets2Trello/blob/main/postman.png) 
 
 Below are short instructions on how to use our Postman Workspace.
 
@@ -168,15 +168,17 @@ Postman is an easy to use IDE for Web Services and APIs. Postman will take the A
 
 These are the steps to set up Trello so that it can be used with our scripts. You will need to acquire Trello API credentials and add them to Postman as variables before you start this. 
 
-1. Use the create board request in our “Create Board” collection to start off. The parameters for the board are here. 
+1. Use the create board request in our “Create Board” collection to start off. The parameters for the board are https://developer.atlassian.com/cloud/trello/rest/api-group-boards/#api-boards-post.
 
-2. Create a list using the BoardID acquired from a JSON response after sending a POST request to make a board. Creating a list is easy, and the parameters can be found Here.
+2. Create a list using the BoardID acquired from a JSON response after sending a POST request to make a board. Creating a list is easy, and the parameters can be found at https://developer.atlassian.com/cloud/trello/rest/api-group-lists/#api-lists-post
 
-3. Using the ListId Acquired from the JSON response, make a card, and specify which list by creating a parameter called “idList” and adding the list id acquired from the JSON response. For a full list of the parameters used to create a list refer to here.
+3. Using the ListId Acquired from the JSON response, make a card, and specify which list by creating a parameter called “idList” and adding the list id acquired from the JSON response. For a full list of the parameters used to create a list refer to https://developer.atlassian.com/cloud/trello/rest/api-group-cards/#api-cards-post
 
-4. After creating the card, the checklist needs to be made, and the Card ID you receive in the JSON request can now be used to create a checklist on the card you just created. For a full list of parameters to add a card refer to here.
+4. After creating the card, the checklist needs to be made, and the Card ID you receive in the JSON request can now be used to create a checklist on the card you just created. For a full list of parameters to add a card refer to https://developer.atlassian.com/cloud/trello/rest/api-group-checklists/#api-checklists-post
 
-5. 
+5. After the checklist is made, copy the checklist ID from the JSON response, and then send a response to add fields to the checklist. The format you should follow is this: ‘Field Name Field Value’. So if my name is John, you would use the “name” parameter and write-Name: John Doe or if you wanted to do an email you write: “name” param- Email: Johndoe@gmail.com. For a full list of params, refer to https://developer.atlassian.com/cloud/trello/rest/api-group-checklists/#api-checklists-id-checkitems-post
+
+In the Postman workspace we also added Stripe API requests to show that a business can use these to collect payments from customers using the stripe API, this system can then be used to move money around or automatically send payments, arrange customers on Trello lists, or even arrange sales. The Stripe APi gives this workspace high business value.
 
 
 <!-- USAGE EXAMPLES -->
@@ -218,6 +220,7 @@ We are proud of the system that we have made which can be implemented to work wi
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
+
 
 
 <!-- CONTACT -->
