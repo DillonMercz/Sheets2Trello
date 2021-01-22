@@ -202,7 +202,7 @@ In the Postman workspace we also added Stripe API requests to show that a busine
 14. Construction
 15. Organizing Information about organizations, events, and more.
 16. Storing information without having to build or set up a database.
-17. Nearly anything Digital.
+17. Sales
 
 
 
