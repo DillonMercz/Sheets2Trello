@@ -220,7 +220,6 @@ We are proud of the system that we have made which can be implemented to work wi
 Distributed under the MIT License. See `LICENSE` for more information.
 
 
-
 <!-- CONTACT -->
 ## Contact
 
