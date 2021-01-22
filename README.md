@@ -229,7 +229,7 @@ Project Link: [https://github.com/DillonMercz/Sheets2Trello](https://github.com/
 [issues-shield]: https://img.shields.io/github/issues/DillonMercz/Sheets2Trello.svg?style=for-the-badge
 [issues-url]: https://github.com/DillonMercz/Sheets2Trello/issues
 [license-shield]: https://img.shields.io/github/license/DillonMercz/Sheets2Trello.svg?style=for-the-badge
-[license-url]: https://github.com/DillonMercz/Sheets2Trello/blob/main/LICENSE
+[license-url]: https://github.com/DillonMercz/Sheets2Trello/blob/main/LICENSE.txt
 [website-shield]: https://img.shields.io/website?down_color=lightgrey&down_message=offline&up_color=blue&up_message=online&url=https%3A%2F%2Fshields.io
 [website-url]: https://splurket.com
 [product-screenshot]: https://github.com/DillonMercz/Sheets2Trello/blob/main/trello%20splur.png
