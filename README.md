@@ -157,6 +157,25 @@ To Get Started Please Refer to the Instructions Below:
 16. If Problems Persist, Open A New Issue, or reach out to us.
 
 
+<!-- Postmamn--!>
+
+## Postman Workspace
+Below is a documentation on how to use our Postman Workspace.
+
+Postman is an easy to use IDE for Web Services and APIs. Postman will take the API request that you make in one language and turn it into all the other languages via its API. You can use Postman to connect many web services together using their API. Software developers will find this feature useful for adding API functionality to different aspects of what they develop. More recently, Postman added some really useful features that allow developers to work together in one location. In Postman, you can not only use APIs, but you can also build your own! This IDE provides everything you need to build, test, and deploy your API.
+
+These are the steps to set up Trello so that it can be used with our scripts. You will need to acquire Trello API credentials and add them to Postman as variables before you start this. 
+
+1. Use the create board request in our “Create Board” collection to start off. The parameters for the board are here. 
+
+2. Create a list using the BoardID acquired from a JSON response after sending a POST request to make a board. Creating a list is easy, and the parameters can be found Here.
+
+3. Using the ListId Acquired from the JSON response, make a card, and specify which list by creating a parameter called “idList” and adding the list id acquired from the JSON response. For a full list of the parameters used to create a list refer to here.
+
+4. After creating the card, the checklist needs to be made, and the Card ID you receive in the JSON request can now be used to create a checklist on the card you just created. For a full list of parameters to add a card refer to here.
+
+5. 
+
 
 <!-- USAGE EXAMPLES -->
 ## Usage and applications
