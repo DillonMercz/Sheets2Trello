@@ -81,7 +81,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://github.com/DillonMercz/Sheets2Trello/blob/main/Screen_Shot_2021-01-25_at_10.26.54_AM.png) 
 <img src="https://github.com/DillonMercz/Sheets2Trello/blob/main/Screen_Shot_2021-01-25_at_10.26.54_AM.png" alt="Trello Screenshot">
 
 For many organizations, the online platforms require users to submit requests that are handled by administrators later. One prominent example of this occurs during online shopping or on freelance websites. Customers contact freelancers and expect them to solve their problems. Here At Splurket, we Know firsthand that it is hard to stay organized as a developer. Which is why we made it easy! Developers usually spend a lot of time on accessing databases, collecting requests from various sources such as google forms and google sheets, and strategizing how to organize them into their ‘to-do list’ management platforms, such as Trello. This project proves that it is very easy to accomplish this daunting task through automation using APIs. 
