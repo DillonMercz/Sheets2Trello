@@ -234,12 +234,20 @@ Dylan Clayton - [@Dillon_marks](https://twitter.com/dillon_marks) - dylanclayton
 
 Gael K. Bertrand - [Discord: BeeKay Koozie#6769](https://discord.com)
 
+Woody Hooten - [website](https://woodyhooten.com) - Frymatic@woodyhooten.com - [Linkedin](https://www.linkedin.com/in/woodyhooten/)
+
 Project Link: [https://github.com/DillonMercz/Sheets2Trello](https://github.com/DillonMercz/Sheets2Trello)
 
 
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
+Woody Hooten - Advisor, Server, Video, and schematics.
+Kwibuk Bertrand - Overseer, Documentation, and project design.
+Snatchbot.me - Chatbot on the HTML Demo Site.
+Twilio - Python and google sheets demo.
+Deorro- Music for the video
+Postman- - Awesome IDE for creating and effecictively using APIs
 
 
 
